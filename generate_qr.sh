@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-FULL_URL="https://github.com/Dragos-Florin-Pojoga/files/blob/resume/Resume.pdf"
-SHORT_URL="is.gd/resumeDragos"
+FULL_URL="https://raw.githubusercontent.com/Dragos-Florin-Pojoga/files/refs/heads/resume/Resume.pdf"
+SHORT_URL="is.gd/ResumeDragos"
 
 qrencode -o qr.png -s 10 "$FULL_URL"
 
